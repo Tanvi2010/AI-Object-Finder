@@ -8,6 +8,8 @@ function setup(){
 function find() {
     objectdetector=ml5.objectDetector("cocossd",modelLoaded);
     document.getElementById("status").innerHTML="Detecting Objects🔎";
+    object=document.getElementById("name").value;
+    
 }
 function modelLoaded() {
     console.log("Model Has Loaded🔃")
