@@ -1,0 +1,55 @@
+#header{
+    background-color: #c8ead9;
+    font-family: cursive;
+    width: 90%;
+    border-radius: 30px;
+    border: 5px solid #ffd0e0;
+    color: white;
+    font-size:  30px;
+    box-shadow: 15px 15px 20px black;
+    margin-top: 0px;
+}
+
+#find{
+    background-color: #ffd0e0;
+    border-radius: 30px;
+    border: 5px solid #fff7c8;
+    color: white;
+    font-size:  20px;
+}
+
+#detect{
+    background-color: #fff7c8;
+    border-radius: 30px;
+    border: 5px solid white;
+    font-size:  20px;
+    width: 20%;
+}
+#status{
+    background-color: #b7d5ef;
+    border-radius: 30px;
+    border: 5px solid white;
+    font-size:  20px;
+    width: 25%;
+}
+
+canvas{
+    border-radius: 30px;
+    border: 5px solid #82d6d6;    
+    box-shadow: 15px 15px 20px black;
+    margin-top: 90px;
+}
+
+#footer{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    border: 3px solid #f28ba0;
+    border-radius: 30px;
+    color: #82d6d6;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    bottom: 0;
+    position: fixed;
+}
